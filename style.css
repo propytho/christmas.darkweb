@@ -1,27 +1,36 @@
 body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
-    overflow: hidden;
+    padding: 0;
+    background-color: #f0f0f0;
 }
 
-.globe-container {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #222;
+header {
+    background-color: #d32f2f;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
 }
 
-.globe {
-    width: 400px;
-    height: 400px;
-    background: url('globe.jpg') no-repeat center;
-    background-size: cover;
-    border-radius: 50%;
-    animation: rotate 20s linear infinite;
+.content {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
 }
 
-@keyframes rotate {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
