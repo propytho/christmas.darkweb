@@ -31,7 +31,7 @@ Christmas Wonderland is a delightful website created to capture the magic of Chr
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/christmas-wonderland.git
+   git clone https://github.com/your-username/christmas.darkweb.git
    ```
 
 2. Open `index.html` in your web browser.
